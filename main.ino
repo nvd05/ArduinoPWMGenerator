@@ -1,4 +1,5 @@
-// #define GENERATOR true
+// Если закоментировать следующую строку, тогда будет работать библиотека Servo.h иначе PWMGenerator.h
+#define GENERATOR true
 
 #if defined(GENERATOR)
 	#include "PWMGenerator.h"
